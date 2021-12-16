@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,900;1,800;1,900&family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:rgb(133, 186, 233);
+    color:rgb(221, 218, 218);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.header-main{
+    color:rgb(248, 248, 248);
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 10px;
+}
+
+.header-box{
+  
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.9),rgba(19, 19, 162, 0.2)),url(images/Resto.jpg);
+   
+    
+}
+.header-text{
+    
+    position:relative;
+    width: 1000px;
+    top:10%;
+    right:50%;
+    left:33%;
+    text-align: center;
+}
