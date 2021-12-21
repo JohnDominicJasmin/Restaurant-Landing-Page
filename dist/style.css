@@ -9,7 +9,7 @@
 }
 
 html{
-    background-color:rgb(133, 186, 233);
+    background-color:rgb(242, 242, 242);
     color:rgb(221, 218, 218);
     font-family: "Lato", sans-serif;
     font-size: 20px;
@@ -49,6 +49,7 @@ html{
     border: 1px solid rgb(225, 171, 72);
     color:white;
     border-radius: 30px;
+    
     text-decoration:none;
     padding: 10px;
 }
@@ -115,3 +116,84 @@ html{
     letter-spacing: 1px;
 }
 
+
+.section{
+    height: 105vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7%;
+    background-image: linear-gradient(rgba(172, 172, 172, 0.7),rgba(185, 185, 185, 0.6)),url(images/section.jpg);
+}
+
+.card{
+    height: 660px;
+    width: 30%;
+    background-color: #f3f3f3;
+    padding:10px;
+    display: inline-block;
+    margin-right: 30px;
+    box-shadow: 7px 13px 45px 0px rgba(0,0,0,0.91);
+    -webkit-box-shadow: 7px 13px 45px 0px rgba(0,0,0,0.91);
+    -moz-box-shadow: 7px 13px 45px 0px rgba(0,0,0,0.91);
+}
+
+.card-image{
+    width: 100%;
+    height:42%;
+    
+}
+
+.card h3{
+    text-align: center;
+    padding-bottom: 25px;
+    color:rgb(87, 87, 87);
+    padding-top: 17px;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.card h4{
+    text-align : center;
+    color:rgb(247, 179, 8);
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.card p{
+    font-size: 70%;
+    color:rgb(109, 109, 109);
+    padding:13px 20px;
+    text-align: center;
+
+}
+
+
+.btn-order-now:link,
+.btn-order-now:visited{
+margin-left: 31%;
+color:rgb(247, 179, 8);
+padding:5px 20px;
+
+font-size: 75%;
+transition: 0.5s;
+}
+
+
+.btn-order-now:active,
+.btn-order-now:hover{
+   color:#ffffff;
+   background-color:rgb(247, 179, 8);
+   transition: 0.5s;
+   
+}
+
+
+.section2{
+    height:100vh;
+    background-color: #f7f7f7;
+}
+
+.person-card-image{
+    width:10%;
+    
+}
