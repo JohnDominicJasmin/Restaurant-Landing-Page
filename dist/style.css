@@ -8,6 +8,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -236,4 +237,33 @@ transition: 0.5s;
 }
 .clearfix{
     clear: both;
+}
+
+footer{ 
+    height:11vh;
+    background-color:#1c1c1c;
+}
+.footer_paragraph1{
+
+}
+.footer_div{
+    width:50%;
+
+    float:left;
+}
+
+.footer_paragraph1{
+    padding:20px;
+    font-size: 53%;
+    color:rgb(113, 112, 112);
+}
+.footer_paragraph2{
+    padding:20px;
+    color:rgb(113, 112, 112);
+}
+
+.footer_paragraph2 i{
+    margin:10px 0px 10px 12px;
+    color:var(--color-theme);
+    font-size: 120%;
 }
